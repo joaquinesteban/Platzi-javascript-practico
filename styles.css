@@ -11,74 +11,126 @@ html{
 
 
 body{
-   color: white;
-   background-image: linear-gradient(0deg, #7950f2 5%, #f783ac 95%);
+   color: #000;
+   background-color: #eee0e0e2 ;
 }
 
+
+/*Esta pagina es una ejemplo por eso no tiene barra de inicio y logo de la pagina  */
 header{
-    color: aliceblue;
- 
-    text-align: center;
-    font-size: 1.8rem;
-    padding:40px 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #96969653;
 }
+
+/* Comienzo del main titulo y imagen de la pagina principal */
 
 main{
     width: 100%;
     height: 300px;
+    
+}
+
+main > .face-page {
+    width: 100%;
+    height: 600px;
     display: flex;
     justify-content: space-around;
+}
+
+main > .face-page > .text{
+    width: 600px;
+    height: 600px;
     
 }
 
-main > .card-cuadrado{
-    width: 300px;
-    height: 400px;
-    background-color: #3e3e3e;
-    border-radius: 15px;
-    box-shadow: -1.5px 3.5px 18px 2.5px #353535;
-    padding: 10px;
-    margin: 10px;
-
+main > .face-page > .text > h1{
+   font-size: 10rem;
+   margin-top: 100px;
 }
 
-main > .card-cuadrado > h2{
-    font-size:2.4rem ;
-    margin-top:25px  ;
+main > .face-page > .text > p{
+    font-size: 2.8rem;
 }
 
-main > .card-cuadrado > img{
-    display: inline-block;
-    width: 100px;
-    margin-left: 30%;
+/* MAIN Comienzo de formularios  */
+
+main > .forms {
+    width: 100%;
+    height: 1500px;
+    background-image: linear-gradient(180deg, #0a1027 60%, #4a0174 100%);
+}
+
+main > .forms > h2{
+    color: rgb(255, 255, 255);
+    font-size: 7rem;
+    margin-left: 40px ;
+    margin-bottom: 50px;
+}
+
+main > .forms > .forms-figure{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
    
-
 }
 
-main > .card-cuadrado > form{
-    margin-top: 10px;
+main > .forms > .forms-figure > .card-cuadrado{
+    display: flex;
+    justify-content: space-around;
+
+    width: 800px;
+    height: 300px;
+    /* background-color: #6ab2cc; */
+    color: rgb(235, 230, 230);
+    padding: 20px;
+    margin-left: 40px;
+    margin-top: 50px;
+    border: 1px black solid;
+    border-radius: 18px;
 }
 
-main > .card-cuadrado > form > input{
-    width: 280px;
-    height: 30px;
-    margin-top: 10px;
-    border-radius: 10px;
+
+main  .card-cuadrado  .form-date{
+   width: 400px;
+  
     
 }
 
-main > .card-cuadrado > form > label{
-    font-size: 2rem;
+main  .card-cuadrado  .form-date > h2{
+    font-size:3rem ;
+
 }
 
-
-main > .card-cuadrado > form > button{
+main  .card-cuadrado  .form-date label{
     display: inline-block;
-    width: 120px;
-    padding: 8px;
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+
+main  .card-cuadrado  .form-date input{
+    width: 400px;
+    margin: 6px 0;
+}
+
+main  .card-cuadrado  .form-date button{
+    width: 150px;
+    height: 50px;
     border-radius: 10px;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: #7a7a7a7c;
+}
+
+main .card-cuadrado .image {
+    /* background-color: #7a7a7a;
+    width: 200px; */
+    
+}
+
+main .card-cuadrado .image > img{
+    width: 250px;
+    
 }
 
 
