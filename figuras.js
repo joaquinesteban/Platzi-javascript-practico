@@ -117,6 +117,6 @@ function altura(lado1, lado2, base){
         console.log(altura)
     }
     else{
-        alert("no entiendo nada")
+        console.error("no entiendo nada")
     }
 }
